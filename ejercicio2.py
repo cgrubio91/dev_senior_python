@@ -8,4 +8,4 @@ milimetros = medidaInicial * 1000
 
 print("Ejercicio 2: Conversión de unidades")
 print(f"\n{medidaInicial} mts es igual a {centimetros} cm")
-print(f"\n{medidaInicial} mts es igual a {milimetros} ml")
+print(f"{medidaInicial} mts es igual a {milimetros} ml")
