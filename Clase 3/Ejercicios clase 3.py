@@ -29,40 +29,9 @@ for i in range(terminos):
     tempA = a
     a = b
     b = tempA + b
-
-# ## 2. **Ejercicio: Cálculo del Factorial** 🎯
-
-# El factorial de un número \( n \) (representado como \( n! \)) es el producto de todos los enteros positivos hasta \( n \). La fórmula es:
-
-# \[ n! = n*(n-1)*(n-2)* \ldots* 1 \]
-
-# ### **Instrucciones**:
-# 1. Crea un programa que pida un número al usuario y calcule su factorial usando un bucle.
-# 2. Muestra el resultado en pantalla.
-
-# ### **Ejemplo de salida**:
-# ```
-# Ingresa un número para calcular su factorial: 5
-# El factorial de 5 es: 120
 # ```
 
-# ## 3. **Ejercicio: Cálculo de Potencias** 💥
 
-# Escribe un programa que solicite al usuario dos números: la base y el exponente. El programa debe calcular la potencia utilizando la fórmula:
-
-# \[ 	a^{n} = a*a*a*a \ (n\ veces)\]
-
-# ### **Instrucciones**:
-# 1. Solicita la base y el exponente al usuario.
-# 2. Calcula la potencia utilizando el operador `**` en Python.
-# 3. Muestra el resultado en pantalla.
-
-# * Hazlo ahora sin usar el operador `**`
-# ### **Ejemplo de salida**:
-# ```
-# Ingresa la base: 3
-# Ingresa el exponente: 4
-# El resultado de 3^4 es: 81
 # ```
 
 # ## 4. **Ejercicio: Suma de Números Naturales** ➕

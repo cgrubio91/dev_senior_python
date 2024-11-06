@@ -1,4 +1,5 @@
 # El bucle while se usa cuando no se sabe cuantas veces se va a repetir una acción y depende de una condición que puede cambiar durante la ejecución
+#Evalua la condición hasta que esta sea falsa
 contador = 1
 
 while contador <= 5:
