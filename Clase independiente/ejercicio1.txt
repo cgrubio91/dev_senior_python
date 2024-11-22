@@ -1,0 +1,54 @@
+1. Gestión de Eventos
+Descripción: Programa para gestionar eventos personales o profesionales.
+
+Requerimientos:
+
+Agregar eventos: Solicitar nombre, fecha, lugar y participantes.
+Visualizar eventos: Mostrar todos los eventos con sus detalles.
+Filtrar eventos por fecha o lugar.
+Calcular la cantidad total de eventos programados en un período específico.
+Generar un informe en formato TXT con todos los eventos registrados.
+
+2. Control de Gastos Personales
+Descripción: Programa para registrar y analizar los gastos mensuales.
+
+Requerimientos:
+
+Registrar un gasto: Pedir categoría (alimentos, transporte, ocio, etc.), monto y fecha.
+Mostrar gastos: Listar todos los gastos con sus categorías y fechas.
+Filtrar gastos por categoría o rango de fechas.
+Calcular el gasto total, promedio y categorizar el mayor y menor gasto.
+Exportar los datos de los gastos a un archivo CSV.
+
+3. Seguimiento de Hábitos
+Descripción: Programa para registrar y analizar el progreso de hábitos diarios o semanales.
+
+Requerimientos:
+
+Agregar un hábito: Pedir nombre, frecuencia deseada (diaria/semanal), y meta semanal.
+Registrar progreso: Permitir al usuario ingresar el número de días en los que completó el hábito.
+Mostrar progreso: Mostrar cuántos días ha completado el hábito y su porcentaje de cumplimiento.
+Identificar hábitos cumplidos y pendientes.
+Generar un informe motivacional en formato TXT con sugerencias basadas en el desempeño.
+
+4. Inventario de Productos
+Descripción: Programa para gestionar un inventario de productos.
+
+Requerimientos:
+
+Agregar un producto: Solicitar nombre, cantidad, precio unitario y categoría.
+Visualizar productos: Mostrar la lista completa de productos con sus detalles.
+Buscar productos por nombre o categoría.
+Calcular el valor total del inventario.
+Generar un informe en TXT o CSV con el estado actual del inventario.
+
+5. Agenda de Contactos
+Descripción: Programa para gestionar una agenda de contactos personales y profesionales.
+
+Requerimientos:
+
+Agregar un contacto: Pedir nombre, número de teléfono, correo electrónico y categoría (personal/profesional).
+Mostrar contactos: Listar todos los contactos.
+Buscar contactos por nombre o categoría.
+Editar o eliminar un contacto.
+Exportar la agenda completa a un archivo CSV.
