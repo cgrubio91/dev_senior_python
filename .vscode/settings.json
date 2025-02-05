@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./Módulo_3_exepciones_depuración/Clase_5/src"
+    ]
+}

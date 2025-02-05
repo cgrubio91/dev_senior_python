@@ -6,7 +6,9 @@ class Empleado:
 
     def calcular_comision(self):
         if self.ventas > 5000:
+            print(f"*** El empleado {self.nombre}. Ventas: {self.ventas}. Comisión del 10%")
             return self.ventas * 0.1
+        print(f"*** El empleado {self.nombre}. Ventas: {self.ventas}. Comisión del 5%")
         return self.ventas * 0.05
     
 empleados = [
