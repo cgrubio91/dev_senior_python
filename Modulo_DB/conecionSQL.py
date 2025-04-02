@@ -11,7 +11,7 @@ conexion = mysql.connector.connect(
 
 if conexion.is_connected():
     print("Conexión exitosa a la base de datos")
-
+cursos = conexion.cursor()
 # Insertar datos(INSERT)
 query = "INSERT INTO Profesores(nombre,especialidad,experiencia) VALUES(%s, %s, %s);"
 valores = ("Juan David", "Ingenieria de Sistemas", 5)
@@ -31,3 +31,6 @@ valores = (14,)
 cursos.execute(query,valores)
 conexion.commit() # Guardar los cambios
 print(f"Fila insertada: {cursos.rowcount}")
+
+cursos.close() # Cerrar el cursor
+conexion.close() # Cerrar la conexión
